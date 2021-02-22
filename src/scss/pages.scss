@@ -1,0 +1,32 @@
+.Showcase {
+  color: white;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-image: url(../assets/showcase_back.jpg);
+  text-align: center;
+
+  .Search {
+    text-align: left;
+    margin-top: 30px;
+    background-color: $color-yellow;
+    padding: 40px;
+    box-shadow: 0 20px 40px rgba(black, 0.2);
+    &-form {
+      position: relative;
+      display: flex;
+
+      &-item {
+        & + & {
+          margin-top: 20px;
+        }
+      }
+    }
+  }
+  .asd {
+    // position: absolute;
+    right: 0;
+  }
+}
+.for-work {
+  margin-top: 10px;
+}
